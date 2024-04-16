@@ -58,7 +58,7 @@ const editTask=(tkId)=>{
 
 // Delete a product from the list
 const deleteTask = (taskId) => {
-  setTask(products.filter(({ id }) => taskId !== id));
+  setTask(task.filter(({ id }) => taskId !== id));
 };
 
   return (
